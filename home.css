@@ -1,0 +1,129 @@
+h1
+{
+    font-family: 'Bangers', Times, serif;
+    /* background-color:royalblue; */
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    color:#000000;
+    /* border: 25px groove royalblue; */
+}
+*
+{
+    margin:0px;
+}
+body
+{
+    background-image: url(https://pub-static.fotor.com/static/web/site/features/backgrounds/images/Fotor-wall-background-image-5.jpg);
+}
+.navbar
+{
+    background-color:black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    /* margin-inline-start: 5px; */
+}
+.navbar li
+{
+    font-family: 'Ubuntu', sans-serif;
+    float:left;
+    list-style: none; 
+    margin: 13px 10px;
+}
+.navbar ul
+{
+    overflow: auto;
+}
+.navbar li a
+{
+    /* padding: 3px 3px; */
+    padding-left: 3px;
+    padding-right: 10px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+    /* border-right:2px solid pink; */
+}
+.navbar li a:hover
+{
+    color:crimson;
+}
+.search
+{
+    float: right;
+    color: white;
+    padding: 12px 15px;
+}
+.navbar input
+{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+footer
+{
+    background-color:hotpink;
+    font-weight: bold;
+    padding: 10px 5px;
+    text-align: right;
+}
+p,ol
+{
+    font-family: cursive;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color:#080079;
+}
+p:hover
+{
+    color:crimson;
+}
+h3
+{
+    padding:20px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color:gold;
+    margin:20px;
+
+}
+.contact li a
+{
+    text-decoration: none;
+    color:#080079;
+}
+.contact li:hover
+{
+    color:crimson;
+}
+.contact li a:hover
+{
+    color:crimson;
+}
+.donatebutton
+{
+    text-align: center;
+    /* border:10px groove #1e40a0; */
+    border: 3px solid grey;
+    width: 300px;
+    height:100px;
+    padding-top:50px;
+    margin:auto;
+    border-radius: 14px;
+    box-shadow: 10px 10px 10px grey;
+    margin-bottom:35px;
+}
+.donatebutton:hover
+{
+    border-color:#1e52a0;
+}
+.donatebutton :active
+{
+    background-color:grey;
+}
